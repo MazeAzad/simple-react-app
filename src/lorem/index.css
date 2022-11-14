@@ -1,0 +1,20 @@
+.loremGeneratorContainer {
+    width: 500px;
+    margin: auto;
+}
+
+.loremGenerator {
+    justify-content: center;
+    text-align: center;
+}
+
+.loremFormContainer {
+    width: fit-content;
+    margin: auto;
+}
+
+.loremForm {
+    display: flex;
+    gap: 20px;
+
+}

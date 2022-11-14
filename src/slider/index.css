@@ -1,0 +1,75 @@
+main {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+}
+
+
+.slider {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.review {
+    position: absolute;
+}
+
+.imageContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+.imageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+.title {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.quoteContainer {
+    text-align: center;
+}
+
+.nextBtn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    cursor: pointer;
+}
+
+.preBtn {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    cursor: pointer;
+
+}
+
+.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.next {
+    transform: translateX(100%);
+}
+
+.pre {
+    transform: translateX(-100%);
+}

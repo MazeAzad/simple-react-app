@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.slide-toggle-btn {
+    border: 0;
+    font-size: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    background-color: inherit;
+    animation-name: animation;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 0;
+}
+
+@keyframes animation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.open-modal-btn {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3px;
+    border: 0;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    background-color: black
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+}
+
+.sidebar {
+    background-color: rgb(166, 151, 151);
+    width: 500px;
+    z-index: 2;
+    position: fixed;
+    height: 100vh;
+    transform: translate(-100%);
+    transition: 100ms ease-in-out;
+}
+
+.show-sidebar {
+    transform: translate(0);
+}
+
+.links {
+    margin-top: 13px;
+
+    margin-left: 5px;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+
+.link {
+    margin-bottom: 10px;
+}
+
+.link:hover {
+    background-color: rgb(161, 161, 161);
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.close-btn {
+    position: absolute;
+    right: 0;
+    background-color: inherit;
+    border: 0;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.modalContainer {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(177, 132, 132);
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+.show-modal {
+    display: block;
+}
+
+.modalContet {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: aliceblue;
+    display: flex;
+
+}
+
+.close-modal-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+    border: 0;
+    color: red;
+    font-size: 1.5rem;
+
+}
+
+.modalText {
+    margin: auto;
+}

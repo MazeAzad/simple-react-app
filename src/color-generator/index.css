@@ -1,0 +1,18 @@
+.colorForm {
+    display: flex;
+    gap: 10px;
+}
+
+.color {
+    width: 200px;
+    height: 200px;
+    padding-left: 20px;
+}
+
+.colors {
+    display: flex;
+}
+
+.colorsContainer {
+    margin-top: 20px;
+}

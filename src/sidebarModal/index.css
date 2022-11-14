@@ -1,0 +1,152 @@
+ body {
+     background-color: #CEFEFB;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+ .mainContainer {
+     position: relative;
+     width: 100wh;
+     height: 100vh;
+ }
+
+ .barsContainer {
+
+     margin-left: 5px;
+     width: fit-content;
+     animation-name: barsAnimation;
+     animation-duration: 1000ms;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+ }
+
+ @keyframes barsAnimation {
+     0% {
+         font-size: 2rem;
+     }
+
+     100% {
+         font-size: 3rem;
+     }
+
+
+ }
+
+ .timesIcon {
+     font-size: 2.6rem;
+     color: red;
+
+ }
+
+ .sidebarContainer {
+     overflow: hidden;
+     height: 100vh;
+     background-color: white;
+     overflow: hidden;
+     transition: width 1000ms;
+     width: 0;
+     position: absolute;
+     top: 0;
+     left: 0;
+ }
+
+
+ .sidebarHeader {
+     display: flex;
+     gap: 20px;
+ }
+
+ .logo {
+     margin-right: auto;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+     font-size: 1.5rem;
+ }
+
+ .links {
+     width: fit-content;
+     height: fit-content;
+
+
+ }
+
+ .link {
+     display: flex;
+     gap: 20px;
+ }
+
+ .link a {
+     display: flex;
+     gap: 20px;
+ }
+
+ .linkIcon {
+     height: fit-content;
+     margin-top: 28px;
+
+ }
+
+ .socials {
+     margin-top: 290px;
+ }
+
+ .social {
+     display: flex;
+     gap: 20px;
+     width: fit-content;
+     margin: auto;
+ }
+
+ .modalBtn {
+     background-color: black;
+     color: white;
+     border: 0;
+     padding: 10px;
+     border-radius: 5px;
+ }
+
+ .modalContainer {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     left: 45%;
+     top: 40%;
+ }
+
+ .modal {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+     background-color: rgba(213, 208, 208);
+     opacity: 0.2;
+     top: 0;
+ }
+
+ .modalContent {
+     width: 300px;
+     height: 300px;
+     background-color: white;
+     position: absolute;
+     left: 40%;
+     top: 35%;
+ }
+
+ .modalText {
+     width: fit-content;
+     position: absolute;
+     left: 28%;
+     top: 36%;
+     font-size: 1.5rem;
+     font-weight: bold;
+ }
+
+ .modalIcon {
+     position: absolute;
+     right: 0;
+     top: 0;
+     color: red;
+ }

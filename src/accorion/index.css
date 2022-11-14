@@ -1,0 +1,59 @@
+body {
+    background-color: blueviolet;
+}
+
+.mainContainer {
+    width: 900px;
+    height: fit-content;
+    background-color: white;
+    margin: 100px auto 0 auto;
+    display: flex;
+
+
+}
+
+.QandABanner {
+    width: 350px;
+    height: inherit;
+    padding: 15px
+}
+
+.AccordionContainer {
+    width: 550px;
+    height: inherit;
+    padding: 20px;
+
+}
+
+.banner {
+    font-size: 2.5rem;
+}
+
+.QAndAContainer {
+    border: 1px solid rgb(233, 227, 227);
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(214, 211, 211);
+}
+
+
+.btn {
+    background-color: inherit;
+    border: 0;
+    display: block;
+    position: relative;
+    top: 3px;
+
+}
+
+
+.title {
+    display: flex;
+    padding: 10px;
+
+}
+
+.answer {
+    padding: 10px;
+}

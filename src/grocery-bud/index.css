@@ -1,0 +1,94 @@
+body {
+    background-color: #C6EBFB;
+}
+
+.mainContainer {
+    width: 550px;
+    background-color: white;
+    margin: 200px auto;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.title {
+    width: fit-content;
+    margin: auto
+}
+
+.formContainer {
+    width: fit-content;
+    margin: auto;
+
+}
+
+#item {
+    padding: 5px;
+    width: 400px;
+
+}
+
+.btn-submit {
+    padding: 8px;
+    width: 60px;
+    background-color: #81D8FE;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.listContainer {
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.listItem {
+    display: flex;
+    gap: 20px;
+}
+
+.item {
+    margin-right: auto;
+}
+
+.trashIcon {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: red;
+}
+
+.editIcon {
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #6CFA5E;
+}
+
+.clearAllBtn {
+    border: 0;
+    background-color: inherit;
+    color: red;
+    font-size: 1.3rem;
+}
+
+.btnContainer {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.success {
+    width: fit-content;
+    margin: auto;
+    color: #6CFA5E;
+}
+
+.danger {
+    width: fit-content;
+    margin: auto;
+    color: red;
+}
+
+.noItem {
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    color: red;
+}
